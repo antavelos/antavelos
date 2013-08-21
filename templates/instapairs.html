@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <div class="container" id="insta-images">
+    {% for image in images %}
+      <img src="{{ image }}" class="img-thumbnail"></img>
+    {% endfor %}
+    <a href="/instapairs"><button type="button" class="btn btn-primary btn-lg btn-block">Refresh</button></a>
+  </div>
+
+{% endblock %}

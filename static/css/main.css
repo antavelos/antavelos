@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+    float: left;
+    padding: 10px;
+    .box-sizing(content-box);
+}
+
+#tweets {
+    border-radius: 5px;
+    background-color: #101010;
+    padding: 5px;    
+    height: 80%;
+}
+
+#single-tweet {
+    font-size: 12px;
+    background-color: #CCCCCC;
+    padding: 3px;
+    margin-bottom: 2px; 
+}
+
+#insta-images {
+    margin-top: 60px; 
+    width: 800px;    
+}
+
+#insta-images img{
+    width: 150px;
+    padding: 5px;
+}
+#insta-images button{
+    margin-top: 10px;
+}
